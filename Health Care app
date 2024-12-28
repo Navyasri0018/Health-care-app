@@ -1,0 +1,216 @@
+<html>
+ <head>
+  <title>
+   Healthcare App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     Healthcare App
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Medications
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Appointments
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Profile
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Manage Your Health Conditions
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="A detailed illustration of a heart with medical symbols around it" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/uV3SGQtc8W5COVkPsiCZzU1NohfUZBx5ONHMAwrGyDptcufTA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mb-2">
+       Heart Health
+      </h3>
+      <p>
+       Track your heart health and get personalized recommendations.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="A detailed illustration of lungs with medical symbols around it" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/ppigYn0ezd2JKqrOrMtGa344HNpTMNWbZeG03kJPk65d5cfnA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mb-2">
+       Lung Health
+      </h3>
+      <p>
+       Monitor your lung health and manage respiratory conditions.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="A detailed illustration of a brain with medical symbols around it" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/K3Bicky25NpjApczUVUJrnO0awddhvym4ByYf23BkeHey5ePB.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mb-2">
+       Mental Health
+      </h3>
+      <p>
+       Keep track of your mental well-being and access support resources.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Track Your Medications
+    </h2>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a pill bottle" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/Zfy8ze7cOoq2uUF9nJucgwQukVOEhAhxoF1RaazlT9Xg5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Medication Name
+       </h3>
+       <p>
+        Dosage: 50mg
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a pill bottle" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/Zfy8ze7cOoq2uUF9nJucgwQukVOEhAhxoF1RaazlT9Xg5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Medication Name
+       </h3>
+       <p>
+        Dosage: 100mg
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a pill bottle" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/Zfy8ze7cOoq2uUF9nJucgwQukVOEhAhxoF1RaazlT9Xg5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Medication Name
+       </h3>
+       <p>
+        Dosage: 200mg
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Upcoming Appointments
+    </h2>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a calendar with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/C2BR9xsKnAIeMalYZM49WGMNwBrH4v6zTeO64ND1aA8k5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. John Doe
+       </h3>
+       <p>
+        Date: 2023-10-15
+       </p>
+       <p>
+        Time: 10:00 AM
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a calendar with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/C2BR9xsKnAIeMalYZM49WGMNwBrH4v6zTeO64ND1aA8k5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. Jane Smith
+       </h3>
+       <p>
+        Date: 2023-10-20
+       </p>
+       <p>
+        Time: 2:00 PM
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a calendar with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/C2BR9xsKnAIeMalYZM49WGMNwBrH4v6zTeO64ND1aA8k5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. Emily Brown
+       </h3>
+       <p>
+        Date: 2023-10-25
+       </p>
+       <p>
+        Time: 11:00 AM
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Communicate with Healthcare Providers
+    </h2>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a chat bubble with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/kdQy7GkuWP7ENZfFfNcJHnYQZLR13Rm56zbEPr9Mbt0i5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. John Doe
+       </h3>
+       <p>
+        Last message: How are you feeling today?
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a chat bubble with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/kdQy7GkuWP7ENZfFfNcJHnYQZLR13Rm56zbEPr9Mbt0i5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. Jane Smith
+       </h3>
+       <p>
+        Last message: Please update your medication list.
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="A detailed illustration of a chat bubble with a medical cross" class="w-12 h-12 object-cover rounded mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/kdQy7GkuWP7ENZfFfNcJHnYQZLR13Rm56zbEPr9Mbt0i5cfnA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Dr. Emily Brown
+       </h3>
+       <p>
+        Last message: Your test results are ready.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Healthcare App. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
